@@ -1,0 +1,102 @@
+@media screen and (min-width: 500px){
+
+  .welcome{
+    padding: 80px;
+  }
+
+  h1, h3{
+    font-size: 3.5rem;
+
+  }
+
+  .welcome p{
+    font-size: 1.2rem;
+  }
+
+  .text-vimeo h3{
+    font-size: 1.8rem;
+  }
+
+  .text-vimeo span{
+    font-size: 2.5rem;
+  }
+
+  .text-vimeo, .text-meeting{
+    padding: 20px;
+    height: 40vh;
+  }
+
+  .footer-text{
+    height: 35vh;
+    padding: 20px 50px;
+  }
+
+  h4{
+    font-size: 1.5rem;
+  }
+
+  h5{
+    font-size: .8rem;
+  }
+
+}
+
+@media screen and (min-width: 1024px){
+
+  .section{
+    width: 90%;
+    max-width: 80rem;
+    height: 100%;
+    margin: 0 auto;
+  }
+
+  .section-one, .section-two{
+    display: flex;
+    margin-top: 3rem;
+    flex-direction: row;
+  }
+
+  .section-two{
+    display: flex;
+    margin-top: 3rem;
+    flex-direction: row-reverse;
+  }
+
+  .container-one, .container-two{
+    flex: 1;
+  }
+
+  .container-two .text-title h3{
+    font-size: 2.3rem;
+  }
+
+  .container-two{
+    height: 33vh;
+    margin: 0 30px;
+    border-bottom: none;
+  }
+
+  .footer{
+    display: flex;
+    flex-direction: row;
+  }
+
+  img, .footer-text{
+    width: 50%;
+  }
+
+  img{
+    height: 100%;
+  }
+
+  .footer-text{
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: right;
+    padding: 20px 50px;
+    margin-top: 100px;
+  }
+
+}

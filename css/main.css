@@ -1,0 +1,272 @@
+html {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.2rem;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  line-height: 1.45;
+}
+
+.navigation{
+width: 90vw;
+}
+
+.logo {
+margin-top: 0.5rem;
+margin-bottom: 0.5rem;
+}
+
+.navigation__list {
+/*margin-top: 15vh;*/
+
+}
+
+.navigation__item {
+font-size: 1.2rem;
+margin-bottom: 2rem;
+}
+
+.social-media {
+/*margin-top: 25vh;*/
+display: flex;
+justify-content: space-around;
+}
+
+.welcome{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: left;
+  padding: 20px;
+  height: 100vh;
+}
+
+.text-vimeo, .text-meeting, .footer-text{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+  padding: 10px;
+  height: 30vh;
+}
+
+
+h1, h3{
+  font-size: 1.5rem;
+  font-weight: 200;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+h1 span{
+  color: #00adb5;
+}
+
+.text-vimeo h3{
+  font-size: 1rem;
+}
+
+.text-vimeo span{
+  font-size: 1.5rem;
+  color: #00adb5;
+}
+
+.welcome p{
+  font-size: .8rem;
+}
+
+.section-two .container-one{
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.section-one, .section-two{
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.text-title{
+  text-align: center;
+  padding: 20px;
+}
+
+.container-two{
+  margin: 1rem 1rem;
+  border-top: 1px solid #00adb5;
+  border-bottom: 1px solid #00adb5;
+  display: flex;
+  text-align: justify;
+  padding: 1rem 1rem;
+  flex-direction: column;
+}
+
+.meeting{
+  display: none;
+}
+
+.movies {
+  display: flex;
+  flex-direction: column;
+}
+
+iframe{
+  width: 100vw;
+}
+
+img{
+  width: 100vw;
+}
+
+.vimeo {
+  text-decoration: none;
+  color: #222831;
+}
+
+.vimeo:hover {
+  color: #00adb5;
+}
+
+p{
+  padding-bottom: 1rem;
+}
+.footer{
+  background-color: #00adb5;
+  margin-bottom: 40px;
+}
+
+.footer-text{
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: left;
+  padding: 20px 50px;
+}
+
+h4{
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+h5{
+  font-size: .6rem;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+
+.footer-text p{
+  text-transform: lowercase;
+}
+
+
+.miron a{
+  font-size: .7rem;
+}
+
+h6{
+  font-size: .5rem;
+}
+
+/*
+body {
+  margin: 0;
+  padding: 0;
+  line-height: 1.45;
+}
+
+.section{
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.section-one,
+.section-two{
+  display: flex;
+  height: 70vh;
+  align-items: center;
+}
+
+.section-one{
+  margin-top: 3rem;
+  flex-direction: row;
+}
+
+.section-two{
+  flex-direction: row-reverse;
+}
+
+.container-one{
+  display: flex;
+  flex: 2;
+  flex-direction: column;
+}
+
+.container-two{
+  display: flex;
+  flex: 1;
+  text-align: center;
+  padding: 2rem 2rem;
+  flex-direction: column;
+}
+
+.movies,
+.meeting{
+  display: flex;
+  flex-direction: row;
+}
+
+.meeting{
+  flex-direction: row-reverse;
+}
+
+.text-container{
+  display: flex;
+}
+
+
+.text-vimeo,
+.text-meeting{
+  padding: 1rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.text-meeting{
+  background-color: lightgray;
+}
+
+
+img{
+  width: 33vw;
+}
+
+h3,
+a{
+  text-align: center;
+  text-transform: uppercase;
+}
+
+p{
+  text-align: left;
+}
+
+h3 {
+  font-weight: 300;
+}
+*/
