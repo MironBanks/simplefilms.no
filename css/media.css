@@ -1,6 +1,6 @@
 @media screen and (min-width: 500px){
 
-  .welcome{
+  .welcome, .welcome-two{
     padding: 80px;
   }
 
@@ -50,10 +50,25 @@
     margin: 0 auto;
   }
 
-  .section-one, .section-two{
+  .section-one, .section-two, .section-three{
     display: flex;
     margin-top: 3rem;
     flex-direction: row;
+  }
+
+  .section-three{
+    margin-bottom: 10rem;
+  }
+
+  .about-me-img{
+    display: flex;
+    margin-top: 5%;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .container-one img {
+    width: 100%;
   }
 
   .section-two{
@@ -81,7 +96,7 @@
     flex-direction: row;
   }
 
-  img, .footer-text{
+  .footer img, .footer-text{
     width: 50%;
   }
 
