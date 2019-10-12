@@ -45,7 +45,7 @@
 
   .section{
     width: 90%;
-    max-width: 80rem;
+    max-width: 70rem;
     height: 100%;
     margin: 0 auto;
   }
@@ -62,7 +62,6 @@
 
   .about-me-img{
     display: flex;
-    margin-top: 5%;
     align-items: center;
     justify-content: center;
   }
