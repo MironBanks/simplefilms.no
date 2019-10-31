@@ -102,12 +102,12 @@ button:focus {
   margin-bottom: 10px;
 }
 
-a {
+.navigation a {
   text-decoration: none;
   color: #222831;
 }
 
-a:hover{
+.navigation a:hover{
   cursor: pointer;
   color: #00adb5;
 }
