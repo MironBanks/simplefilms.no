@@ -99,6 +99,49 @@ h1 span{
   font-size: .8rem;
 }
 
+.btn-nav{
+  text-decoration: none;
+  padding: 10px 25px;
+  position: relative;
+  cursor: pointer;
+  font-weight: 300;
+  margin-top: 40px;
+  width: 270px;
+  height: 5px;
+  border-width: initial;
+  border-style: none;
+  border-color: initial;
+  border-image: initial;
+  font-size: 1.1em;
+  color: #222831;
+  text-transform: uppercase;
+  z-index: 2;
+}
+.btn-nav::before{
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 35%;
+  top: 10px;
+  right: 60px;
+  background-color: #00adb5;
+  z-index: -1;
+}
+
+.btn-nav::after{
+  content: "";
+  left: -20px;
+  top: 0px;
+  position: absolute;
+  width: 97%;
+  height: 35%;
+  opacity: 1;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(0, 0, 0);
+  border-image: initial;
+}
+
 .btn{
   text-decoration: none;
   padding: 10px 25px;
@@ -229,6 +272,75 @@ h5{
   font-weight: 100;
   text-transform: uppercase;
 }
+
+/* Pricing Plan Start */
+
+.pricing-plan{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 100px 0 0;
+}
+
+.info{
+  border-top: 1px solid #00adb5;
+  padding-top: 30px;
+  text-align: center;
+  max-width: 80vw;
+}
+
+.info__description{
+  margin-top: 30px;
+}
+
+.box{
+  width: 80vw;
+  margin: 30px 10px;
+  min-height: 500px;
+  border: 3px solid #00adb5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0 10%;
+  position: relative;
+}
+
+.box::after{
+  content: "";
+  left: -10px;
+  top: 10px;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(0, 0, 0);
+  border-image: initial;
+}
+
+.box__title{
+  font-size: 2.5rem;
+  font-weight: 200;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.box--featured h2{
+  color: #00adb5;
+}
+
+.box__price{
+  font-size: 2.5rem;
+  font-weight: 200;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+/* Pricing Plan End */
 
 .footer-text p{
   text-transform: lowercase;

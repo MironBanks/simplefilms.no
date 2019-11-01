@@ -90,7 +90,43 @@
     border-bottom: none;
   }
 
-  .footer{
+  .btn-nav::before{
+    height: 20%;
+    top: 8px;
+  }
+
+  .btn-nav::after{
+    height: 20%;
+  }
+
+
+  /* Pricing Plan Start */
+
+  .info{
+    max-width: 600px;
+  }
+
+  .info__title{
+    font-size: 2.5rem;
+    font-weight: 200;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+
+  .container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+  }
+
+  .box{
+    width: 350px;
+  }
+
+  /* Pricing Plan End */
+
+
+  .footer {
     display: flex;
     flex-direction: row;
   }
