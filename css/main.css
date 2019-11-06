@@ -1,7 +1,7 @@
 html {
   font-family: 'Raleway', sans-serif;
   font-size: 1.2rem;
-  overflow-y: scroll;
+  overflow: scroll;
   overflow-x: hidden;
 }
 
@@ -19,59 +19,16 @@ body {
   line-height: 1.45;
 }
 
-.navigation{
-width: 90vw;
-}
+/* GENERALL CLASSES START */
 
-.logo {
-margin-top: 0.5rem;
-margin-bottom: 0.5rem;
-}
-
-.navigation__list {
-/*margin-top: 15vh;*/
-
-}
-
-.navigation__item {
-font-size: 1.2rem;
-margin-bottom: 2rem;
-}
-
-.social-media {
-/*margin-top: 25vh;*/
-display: flex;
-justify-content: space-around;
-}
-
-.welcome{
+.welcome-two{
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  text-align: left;
+  text-align: center;
   padding: 20px;
-  height: 100vh;
+  height: 60vh;
 }
-
-.text-meeting, .footer-text{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  text-align: center;
-  padding: 10px;
-  height: 30vh;
-}
-
-.text-vimeo{
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-  margin-top: 40px;
-  max-width: 80%;
-}
-
 
 h1, h3{
   font-size: 1.5rem;
@@ -84,19 +41,112 @@ h1 span{
   color: #00adb5;
 }
 
-.text-vimeo h3{
-  font-size: 1rem;
-  margin-bottom: 30px;
+iframe{
+  width: 100vw;
 }
 
-.text-vimeo span{
-  font-size: 1.5rem;
-  color: #00adb5;
+img{
+  width: 100vw;
 }
 
+p{
+  padding-bottom: 1rem;
+}
+
+/* GENERALL CLASSES END */
+
+
+
+
+
+/* Welcome Start */
+
+.welcome{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: left;
+  padding: 20px;
+  height: 100vh;
+}
 
 .welcome p{
   font-size: .8rem;
+}
+
+/* Welcome End */
+
+
+
+
+
+/* Portfolio Start */
+
+.section-one, .section-two, .section-three{
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.section-two .container-one{
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.text-meeting, .footer-text{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+  padding: 10px;
+  height: 30vh;
+}
+
+.text-title{
+  text-align: center;
+  padding: 20px;
+}
+
+.container-two{
+  margin: 1rem 1rem;
+  border-top: 1px solid #00adb5;
+  border-bottom: 1px solid #00adb5;
+  display: flex;
+  text-align: justify;
+  padding: 1rem 1rem;
+  flex-direction: column;
+}
+
+.movies {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Portfolio End */
+
+
+
+
+
+/* NAV BAR Start */
+
+.navigation{
+width: 90vw;
+}
+
+.logo {
+margin-top: 0.5rem;
+margin-bottom: 0.5rem;
+}
+
+.navigation__item {
+font-size: 1.2rem;
+margin-bottom: 2rem;
+}
+
+.social-media {
+/*margin-top: 25vh;*/
+display: flex;
+justify-content: space-around;
 }
 
 .btn-nav{
@@ -142,6 +192,50 @@ h1 span{
   border-image: initial;
 }
 
+.miron a{
+  font-size: .7rem;
+}
+
+h6{
+  font-size: .5rem;
+}
+
+/* NAV BAR End */
+
+
+
+
+/* Container Three Start */
+
+.container-three{
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin-bottom: 50px;
+}
+
+.text-vimeo{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  max-width: 80%;
+  height: 30vh;
+}
+
+.text-vimeo h3{
+  font-size: 1rem;
+  margin-bottom: 30px;
+}
+
+.text-vimeo span{
+  font-size: 1.5rem;
+  color: #00adb5;
+}
+
 .btn{
   text-decoration: none;
   padding: 10px 25px;
@@ -185,93 +279,9 @@ h1 span{
   border-image: initial;
 }
 
-.container-three{
-  display: flex;
-  justify-content: center;
-  padding-top: 40px;
-  margin-bottom: 50px;
-}
-
-.section-two .container-one{
-  display: flex;
-  flex-direction: column-reverse;
-}
-
-.section-one, .section-two, .section-three{
-  display: flex;
-  flex-direction: column-reverse;
-}
-
-.text-title{
-  text-align: center;
-  padding: 20px;
-}
-
-.container-two{
-  margin: 1rem 1rem;
-  border-top: 1px solid #00adb5;
-  border-bottom: 1px solid #00adb5;
-  display: flex;
-  text-align: justify;
-  padding: 1rem 1rem;
-  flex-direction: column;
-}
+/* Container Three End */
 
 
-.meeting{
-  display: none;
-}
-
-.movies {
-  display: flex;
-  flex-direction: column;
-}
-
-iframe{
-  width: 100vw;
-}
-
-img{
-  width: 100vw;
-}
-
-p{
-  padding-bottom: 1rem;
-}
-
-.welcome-two{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  text-align: center;
-  padding: 20px;
-  height: 60vh;
-}
-
-.footer{
-  background-color: #00adb5;
-  margin-bottom: 40px;
-}
-
-.footer-text{
-  height: 30vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  text-align: left;
-  padding: 20px 50px;
-}
-
-h4{
-  font-weight: 400;
-  text-transform: uppercase;
-}
-
-h5{
-  font-size: .6rem;
-  font-weight: 100;
-  text-transform: uppercase;
-}
 
 /* Pricing Plan Start */
 
@@ -342,15 +352,43 @@ h5{
 
 /* Pricing Plan End */
 
+
+
+/* Footer Start */
+
+.footer{
+  background-color: #00adb5;
+  margin-bottom: 40px;
+}
+
+.footer-logo{
+  font-size: 1.6em;
+  text-transform: uppercase;
+}
+
+.footer-text{
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: left;
+  padding: 20px 50px;
+}
+
+h4{
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+h5{
+  font-size: .6rem;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+
+
 .footer-text p{
   text-transform: lowercase;
 }
 
-
-.miron a{
-  font-size: .7rem;
-}
-
-h6{
-  font-size: .5rem;
-}
+/* Footer End */
