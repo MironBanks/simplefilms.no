@@ -21,7 +21,7 @@ body {
 
 /* GENERALL CLASSES START */
 
-.welcome-two{
+.welcome-two {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -30,38 +30,35 @@ body {
   height: 60vh;
 }
 
-h1, h3{
+h1,
+h3 {
   font-size: 1.5rem;
   font-weight: 200;
   text-transform: uppercase;
   letter-spacing: 2px;
 }
 
-h1 span{
+h1 span {
   color: #00adb5;
 }
 
-iframe{
+iframe {
   width: 100vw;
 }
 
-img{
+img {
   width: 100vw;
 }
 
-p{
+p {
   padding-bottom: 1rem;
 }
 
 /* GENERALL CLASSES END */
 
-
-
-
-
 /* Welcome Start */
 
-.welcome{
+.welcome {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -70,29 +67,28 @@ p{
   height: 100vh;
 }
 
-.welcome p{
-  font-size: .8rem;
+.welcome p {
+  font-size: 0.8rem;
 }
 
 /* Welcome End */
 
-
-
-
-
 /* Portfolio Start */
 
-.section-one, .section-two, .section-three{
+.section-one,
+.section-two,
+.section-three {
   display: flex;
   flex-direction: column-reverse;
 }
 
-.section-two .container-one{
+.section-two .container-one {
   display: flex;
   flex-direction: column-reverse;
 }
 
-.text-meeting, .footer-text{
+.text-meeting,
+.footer-text {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -101,12 +97,12 @@ p{
   height: 30vh;
 }
 
-.text-title{
+.text-title {
   text-align: center;
   padding: 20px;
 }
 
-.container-two{
+.container-two {
   margin: 1rem 1rem;
   border-top: 1px solid #00adb5;
   border-bottom: 1px solid #00adb5;
@@ -123,33 +119,29 @@ p{
 
 /* Portfolio End */
 
-
-
-
-
 /* NAV BAR Start */
 
-.navigation{
-width: 90vw;
+.navigation {
+  width: 90vw;
 }
 
 .logo {
-margin-top: 0.5rem;
-margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 
 .navigation__item {
-font-size: 1.2rem;
-margin-bottom: 2rem;
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
 }
 
 .social-media {
-/*margin-top: 25vh;*/
-display: flex;
-justify-content: space-around;
+  /*margin-top: 25vh;*/
+  display: flex;
+  justify-content: space-around;
 }
 
-.btn-nav{
+.btn-nav {
   text-decoration: none;
   padding: 10px 25px;
   position: relative;
@@ -167,8 +159,8 @@ justify-content: space-around;
   text-transform: uppercase;
   z-index: 2;
 }
-.btn-nav::before{
-  content: "";
+.btn-nav::before {
+  content: '';
   position: absolute;
   width: 100%;
   height: 35%;
@@ -178,8 +170,8 @@ justify-content: space-around;
   z-index: -1;
 }
 
-.btn-nav::after{
-  content: "";
+.btn-nav::after {
+  content: '';
   left: -20px;
   top: 0px;
   position: absolute;
@@ -192,22 +184,19 @@ justify-content: space-around;
   border-image: initial;
 }
 
-.miron a{
-  font-size: .7rem;
+.miron a {
+  font-size: 0.7rem;
 }
 
-h6{
-  font-size: .5rem;
+h6 {
+  font-size: 0.5rem;
 }
 
 /* NAV BAR End */
 
-
-
-
 /* Container Three Start */
 
-.container-three{
+.container-three {
   display: flex;
   justify-content: center;
   padding-top: 40px;
@@ -215,7 +204,7 @@ h6{
   margin-bottom: 50px;
 }
 
-.text-vimeo{
+.text-vimeo {
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -226,17 +215,17 @@ h6{
   height: 30vh;
 }
 
-.text-vimeo h3{
+.text-vimeo h3 {
   font-size: 1rem;
   margin-bottom: 30px;
 }
 
-.text-vimeo span{
+.text-vimeo span {
   font-size: 1.5rem;
   color: #00adb5;
 }
 
-.btn{
+.btn {
   text-decoration: none;
   padding: 10px 25px;
   position: relative;
@@ -254,8 +243,8 @@ h6{
   text-transform: uppercase;
   z-index: 2;
 }
-.btn::before{
-  content: "";
+.btn::before {
+  content: '';
   position: absolute;
   width: 100%;
   height: 100%;
@@ -265,8 +254,8 @@ h6{
   z-index: -1;
 }
 
-.btn::after{
-  content: "";
+.btn::after {
+  content: '';
   left: 0px;
   top: 0px;
   position: absolute;
@@ -281,11 +270,9 @@ h6{
 
 /* Container Three End */
 
-
-
 /* Pricing Plan Start */
 
-.pricing-plan{
+.pricing-plan {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -293,18 +280,18 @@ h6{
   padding: 100px 0 0;
 }
 
-.info{
+.info {
   border-top: 1px solid #00adb5;
   padding-top: 30px;
   text-align: center;
   max-width: 80vw;
 }
 
-.info__description{
+.info__description {
   margin-top: 30px;
 }
 
-.box{
+.box {
   width: 80vw;
   margin: 30px 10px;
   min-height: 500px;
@@ -318,8 +305,8 @@ h6{
   position: relative;
 }
 
-.box::after{
-  content: "";
+.box::after {
+  content: '';
   left: -10px;
   top: 10px;
   position: absolute;
@@ -332,18 +319,18 @@ h6{
   border-image: initial;
 }
 
-.box__title{
+.box__title {
   font-size: 2.5rem;
   font-weight: 200;
   text-transform: uppercase;
   letter-spacing: 2px;
 }
 
-.box--featured h2{
+.box--featured h2 {
   color: #00adb5;
 }
 
-.box__price{
+.box__price {
   font-size: 2.5rem;
   font-weight: 200;
   text-transform: uppercase;
@@ -352,21 +339,21 @@ h6{
 
 /* Pricing Plan End */
 
-
-
 /* Footer Start */
 
-.footer{
+.footer {
+  display: flex;
+  flex-direction: row;
   background-color: #00adb5;
   margin-bottom: 40px;
 }
 
-.footer-logo{
+.footer-logo {
   font-size: 1.6em;
   text-transform: uppercase;
 }
 
-.footer-text{
+.footer-text {
   height: 30vh;
   display: flex;
   flex-direction: column;
@@ -375,19 +362,18 @@ h6{
   padding: 20px 50px;
 }
 
-h4{
+h4 {
   font-weight: 400;
   text-transform: uppercase;
 }
 
-h5{
-  font-size: .6rem;
+h5 {
+  font-size: 0.6rem;
   font-weight: 100;
   text-transform: uppercase;
 }
 
-
-.footer-text p{
+.footer-text p {
   text-transform: lowercase;
 }
 
